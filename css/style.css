@@ -36,6 +36,25 @@ body {
   text-decoration: underline;
 }
 
+#menu-btn {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../img/i2_2ec824b0.png);
+  background-position: -275px 60px;
+  size: scale(0.8);
+}
+
+#sign-in-button {
+  padding: 8px 13px 8px 13px;
+  background: rgb(28, 130, 247);
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 2px;
+  margin: 0 15px 0 15px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -101,6 +120,11 @@ main {
   background: rgb(245, 245, 245);
   border: 1px solid #E4E4E4;
   box-shadow: 0 1px 1px rgb(231, 231, 231);
+}
+
+.search-btn:focus {
+  border: 1px solid rgb(83, 143, 233);
+  outline: none;
 }
 
 footer {
